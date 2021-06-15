@@ -31,7 +31,7 @@ npm install --save @say8425/ra-language-korean
 ## Usage
 
 ```typescript jsx
-import koreanMessages from 'ra-language-korean';
+import koreanMessages from '@say8425/ra-language-korean';
 import polyglotI18nProvider from 'ra-i18n-polyglot';
 
 const messages = {
