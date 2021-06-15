@@ -20,7 +20,8 @@
   "scripts": {
     "lint": "eslint src/*.ts",
     "type-check": "tsc --noemit",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "yarn build"
   },
   "main": "lib/index.js",
   "devDependencies": {
